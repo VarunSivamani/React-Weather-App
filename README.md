@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Check out the live App : [App](https://weather-app-varunsiva.netlify.app).
+
 ## Available Scripts
 
 In the project directory, you can run:
