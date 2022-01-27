@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container,
+.warm-container,
+.cold-container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  padding: 20px 20px;
+  margin: 10px auto 20px auto;
+  box-shadow: 0 3px 6px 0 rgb(5, 5, 5);
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  background-image: url("../public/icons/warm-bg.jpg");
+  background-position: top;
+}
+
+.cold-container {
+  background-image: url("../public/icons/Night_Wallpaper.jpg");
+  background-position: center;
+}
+
+.warm-container {
+  background-image: url("../public/icons/Sunlight_Wallpaper.jpg");
+  background-position: top;
+}
+
+@media screen and (max-width: 480px) and (orientation: portrait) {
+  .container,
+  .cold-container,
+  .warm-container {
+    margin-top: 30px;
+    margin-bottom: 200px;
+  }
+}
+
+@media screen and (max-width: 400px) and (orientation: portrait) {
+  .container,
+  .cold-container,
+  .warm-container {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 320px) and (orientation: portrait) {
+  .container,
+  .cold-container,
+  .warm-container {
+    width: 300px;
+  }
+}

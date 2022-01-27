@@ -1,0 +1,107 @@
+* {
+  padding: 10px auto;
+  text-align: center;
+  outline: none;
+  appearance: none;
+  border: none;
+}
+
+.weather-main {
+  width: 100%;
+  margin-top: -15px;
+}
+
+.situation-box {
+  padding-top: 10px;
+  margin-bottom: 15px;
+  font-size: 40px;
+  height: 70px;
+}
+
+.situation {
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+.pics {
+  width: 100%;
+  height: 200px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.pics img {
+  height: 80%;
+}
+
+.temp-box {
+  height: 100px;
+  margin-top: -30px;
+  margin-bottom: 0px;
+}
+
+.temp-box .temperature {
+  font-size: 60px;
+  width: 100%;
+  height: 100%;
+  padding-top: 25px;
+}
+
+.location-box {
+  height: 100px;
+  width: 100%;
+  padding: 20px;
+  margin: auto;
+  margin-top: -40px;
+  margin-bottom: -20px;
+  margin-left: 2px;
+  display: flex;
+  flex-direction: column;
+}
+
+.location-box .location {
+  font-size: 40px;
+  padding: 10px;
+  align-items: center;
+}
+
+.components {
+  display: flex;
+  justify-content: space-around;
+}
+
+.comp {
+  font-weight: 500;
+  font-size: 26px;
+}
+
+.val {
+  font-size: 23px;
+}
+
+.components .wind .comp {
+  padding: 5px;
+}
+
+.components .humidity .comp {
+  padding: 5px;
+}
+
+@media screen and (max-width: 325px) and (orientation: portrait) {
+  .situation-box {
+    font-size: 35px;
+  }
+  .temp-box .temperature {
+    font-size: 40px;
+  }
+  .location-box .location {
+    font-size: 30px;
+  }
+  .comp {
+    font-size: 22px;
+  }
+  .components .wind .val,
+  .components .humidity .val {
+    font-size: 20px;
+  }
+}

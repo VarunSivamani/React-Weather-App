@@ -1,0 +1,43 @@
+body {
+  padding: 0px;
+}
+
+.head {
+  height: 80px;
+  padding-top: 40px;
+}
+
+.text {
+  padding-top: 70px;
+  padding-left: 15px;
+  height: 145px;
+}
+
+.text .hWeather {
+  font-size: 30px;
+}
+
+.text .city-main {
+  margin-top: 5px;
+  padding-top: 10px;
+  margin: 10px auto;
+}
+
+.form-input {
+  padding-top: 90px;
+  padding-left: 10px;
+}
+
+.space {
+  height: 60px;
+}
+
+@media screen, (max-width: 320px) and (orientation: portrait) {
+  .text .hWeather {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .text {
+    padding-top: 40px;
+  }
+}
